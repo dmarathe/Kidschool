@@ -1,0 +1,15 @@
+/* Empty. Add your own CSS if you like */
+img {
+	width: 80vw;
+	height: auto;
+}
+
+.title {
+	text-transform:capitalize;
+}
+
+.item-title {
+	font-size: 289%;
+    line-height: 2;
+    text-align: center;
+}

@@ -1,0 +1,66 @@
+<ion-view view-title="{{title}}">
+  <ion-content>
+	<ion-slide-box on-slide-changed="slideHasChanged($index)" show-pager="false">
+		<ion-slide ng-repeat="model in data">
+			<div class="card">
+			  <div class="item item-divider item-title">
+			    {{model.title}}
+			  </div>
+			  <div class="item item-text-wrap">
+				<img ng-src={{model.img}}>
+			  </div>
+			  <div class="item item-divider">
+			    I'm a Footer in a Card!
+			  </div>
+			</div>
+		</ion-slide>
+		  <!-- <ion-slide>
+		   <svg width="400" height="400">
+			  <rect x="90" y="90" width="200" height="200"
+			  style="fill:blue;stroke:pink;stroke-width:5;opacity:0.5" />
+			</svg>
+		  </ion-slide>
+		  <ion-slide>
+		    <svg height="400" width="400">
+			  <circle cx="200" cy="200" r="100" stroke="black" stroke-width="3" fill="red" />
+			</svg>
+		  </ion-slide>
+		  <ion-slide>
+		    <svg height="400" width="400">
+			  <ellipse cx="180" cy="200" rx="150" ry="100"
+			  style="fill:yellow;stroke:purple;stroke-width:2" />
+			</svg>
+		  </ion-slide>
+		  <ion-slide>
+		  	<svg height="400" width="400">
+			  <polygon points="200,50 300,290 100,290" style="fill:lime;stroke:purple;stroke-width:1" />
+			</svg>
+		  </ion-slide>
+		  <ion-slide>
+		  	<svg height="400" width="400">
+			  <polygon points="100,10 40,198 190,78 10,78 160,198"
+			  style="fill:lime;stroke:purple;stroke-width:5;fill-rule:nonzero;"  transform="scale(1.5,1.5) translate(20)"/>
+			</svg>
+		  </ion-slide>
+
+		  <ion-slide>
+		  	<svg height="400" width="400">
+			  <circle cx="200" cy="400" r="150" style="fill:purple;stroke:purple;stroke-width:1" />
+			</svg>
+		  </ion-slide>
+
+		  <ion-slide>
+		  	<svg height="400" width="400">
+			  <polyline points="20,20 40,25 60,40 80,120 120,140 200,180"
+			  style="fill:none;stroke:black;stroke-width:3" />
+			</svg>
+		  </ion-slide>
+		  <ion-slide>
+		  	<svg height="400" width="400">
+			  <path d="M 100 50 q 150 300 250 0" style="stroke:blue;stroke-width:1; fill:none" />
+			  <path d="M 100 50 q 130 200 250 0" style="stroke:blue;stroke-width:1;fill:none" />
+			</svg>
+		  </ion-slide> -->
+	</ion-slide-box>  
+	</ion-content>
+</ion-view>
