@@ -1,4 +1,4 @@
-Ionic App Base
+Kidschool
 =====================
 
 A starting project for Ionic that optionally supports using custom SCSS.
